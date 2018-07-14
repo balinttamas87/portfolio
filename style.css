@@ -1,0 +1,38 @@
+body {
+	background-image: url("background2.jpg");
+	background-size: cover;	
+	background-repeat: repeat-y;
+	overflow: hidden;
+
+
+}
+
+
+h1 {
+	
+	color: rgb(200,200,200); ;
+	margin-left: 5px;
+	margin-top: 3px;
+	font-family: stalemate;
+	font-size: 300%;
+	font-size-adjust: 50em;	
+}
+
+ul li {
+
+	display: inline;
+
+	
+
+
+	
+}
+
+.topnav {
+	list-style-type: none;
+	float: right;
+	margin-top:  6em;
+	font-size: 35px;
+	
+	
+}

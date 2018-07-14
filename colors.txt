@@ -1,0 +1,68 @@
+#444c5c faded navy
+#CE5A57 punch
+#78A5A3 ocean
+#E1B16A warm
+
+
+
+
+Things 
+Border:
+.border {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border: 20px solid #000;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-color: #CE5A57 ;
+
+
+
+header {
+	background-color: #E1B16A  ;
+	margin:-5px -5px -5px 300px;
+	padding: 5px;
+	border-radius: 25px 25px;
+	width: 50%;
+	text-align: left;
+}
+
+
+
+<ul class="links">
+          
+          <li><a href="https://www.facebook.com/csaba.balint.75"><img title="Facebook" src="file:///C:/Users/macktes/Downloads/facebook-circular-logo.svg"></a></li>
+          <li><a href="#"><img title="Twitter" src="file:///C:/Users/macktes/Downloads/twitter.svg"></a></li>
+          <li><a href="#"><img title="Freecodecamp" src="file:///C:/Users/macktes/Downloads/campfire.svg"></a></li>
+          <li><a href="#"><img src=""></a></li>
+
+
+        </ul> 
+
+
+
+CSS
+
+
+
+}
+  
+ul li{
+  display: list-item;
+  list-style-type: none;
+}
+
+img {
+
+  width: 50px;
+}
+
+.links {
+
+  margin-left: 73.5em;
+  margin-top: 10em;
+}
