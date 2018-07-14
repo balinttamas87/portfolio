@@ -34,5 +34,13 @@ ul li {
 	margin-top:  6em;
 	font-size: 35px;
 	
-	
 }
+
+ul li{
+  display: list-item;
+  list-style-type: none;
+}
+
+img {
+
+  width: 50px;
