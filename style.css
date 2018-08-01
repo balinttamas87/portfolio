@@ -17,9 +17,13 @@ a {
 
 /*header strats from here*/
 .header {
+	position: fixed;
 	background-color: #281E0D;
+	width: 100%;
 	height: 10vh;
 	padding-top: 1rem;
+	
+
 }
 
 .topnav .nav  {
@@ -41,7 +45,7 @@ a {
 /*first section starts from here*/
 .firstpage {
 	background-color: #009AD5;
-	height: 90vh;
+	height: 100vh;
 	width: 100%;
 }
 
