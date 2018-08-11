@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#	
+	
 a {
 	text-decoration: none;
 }
@@ -26,7 +26,7 @@ a {
 
 }
 
-.topnav .nav  {
+.top-nav .top-nav_item  {
 	font-family: stalemate;
 	display: inline;
 	list-style-type: none;
@@ -34,14 +34,17 @@ a {
 	margin-right: 1rem;
 }
 
-.nava {
+.top-nav_item-link {
 	text-decoration: none;
 	color: rgb(255,255,255);
 	 text-shadow:0px 0px 0 rgb(137,156,213),1px 1px 0 rgb(129,148,205),
 	 2px 2px 0 rgb(120,139,196);
 }
- 
 
+.top-nav_item-link:hover {
+	color: rgb(137,156,213);
+
+}
 /*first section starts from here*/
 .firstpage {
 	background-color: #009AD5;
@@ -52,19 +55,20 @@ a {
 h1 {
 	text-align: center;
 	font-size: 4em;
-	padding-top: 7rem;
-
+	padding-top: 9rem;
 }
+
+
 
 .paragraph1 {
 	text-align: center;
-	font-size: 45px;
-	padding-top: 2rem;
+	font-size: 2.8125em;
 }
 
 .paragraph2 {
 	text-align: center;
-	font-size: 20px;
+	font-size: 1em;
+	padding-top: 1rem;
 }
 
 /*second section strats from here*/
@@ -76,29 +80,28 @@ h1 {
 
 .skills {
 	color: #ffffff;
-	margin-left: 940px;
-	padding-top: 100px;
-
+	margin-left: 15rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
 }	
 
 .about {
 	color: #ffffff;
-	text-align: justify;
-	max-width: 350px;
-	margin-left: 800px;
-	
+	max-width: 300px;
+	margin-left: 10rem;
+	margin-bottom: 2rem;	
 }
 
 .below {
 	color: #ffffff;
-	margin-left: 40px;
+	margin-left: 6rem;
 }
 
 
 .skillslist  {
 	list-style-type: none;
 	margin-top: 1.5rem;
-	margin-left: 3rem;
+	margin-left: 7rem;
 }
 
 .imagesize {
@@ -116,8 +119,15 @@ h1 {
 }
 
 /*third page starts from here*/
-.thirdpage {
-	background-color: #ffeeff;
-	height: 100vh;
+.my-work {
+	background-color: #3D9970;
+	height: 90vh;
+	width: 100%;
+}
+
+/*fourth pade starts from here*/
+.contact {
+	background-color: #AAAAAA;
+	height: 90vh;
 	width: 100%;
 }
